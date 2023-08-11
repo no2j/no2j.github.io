@@ -41,10 +41,10 @@ tags : [finalproject]
 - 페이지 interceptor 처리
   
 ### ERD 설계
-![전체ERD](https://github.com/no2j/no2j.github.io/assets/106552182/85c864ae-0db6-42ed-86fb-f35b712313ad)
+![전체ERD](https://github.com/no2j/no2j.github.io/assets/106552182/85c864ae-0db6-42ed-86fb-f35b712313ad){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
 
 #### ERD 설계 (세부적)
-![123](https://github.com/no2j/no2j.github.io/assets/106552182/9431ddaa-7ad6-4b9b-b69d-6975be7f4e3d)
+![123](https://github.com/no2j/no2j.github.io/assets/106552182/9431ddaa-7ad6-4b9b-b69d-6975be7f4e3d){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
 
 #### ERD 설명
 - 관리자와 교수의 중복되는 컬럼이 많아 PROFESSOR 테이블의 ADMIN 컬럼으로 식별
@@ -56,7 +56,7 @@ tags : [finalproject]
 ## 기능구현
 ### 로그인 기능
 ---
-<img src="https://github.com/no2j/no2j.github.io/assets/106552182/c516202a-9504-4102-9365-57c2f7a23233" width="500" height="500">
+<img src="https://github.com/no2j/no2j.github.io/assets/106552182/c516202a-9504-4102-9365-57c2f7a23233" width="500" height="500" style="border:1px solid #606060; border-radius: 7px; padding : 0px;">
 1. 아이디 및 비밀번호 빈값 처리
 2. 아이디 저장 기능
 3. 로그인 상태 유지(자동 로그인) 기능
@@ -64,16 +64,16 @@ tags : [finalproject]
 
 #### SMS인증을 이용한 ID찾기
 ---
-<img src="https://github.com/no2j/no2j.github.io/assets/106552182/cfa5c1e9-9993-4342-b49c-650e3110811f"  width="500" height="350">
+<img src="https://github.com/no2j/no2j.github.io/assets/106552182/cfa5c1e9-9993-4342-b49c-650e3110811f"  width="500" height="350" style="border:1px solid #606060; border-radius: 7px; padding : 0px;">
 
 - ID 찾기 및 비밀번호 초기화 버튼을 클릭 시 나오게 되는 페이지
 - SMS 인증 또는 이메일 인증 중 선택하여 인증 진행
 <br><br>
 
-<img src="https://github.com/no2j/no2j.github.io/assets/106552182/e27317ea-be36-4a2d-9ed8-3a18756eb2d3" width="500" height="350">
+<img src="https://github.com/no2j/no2j.github.io/assets/106552182/e27317ea-be36-4a2d-9ed8-3a18756eb2d3" width="500" height="350" style="border:1px solid #606060; border-radius: 7px; padding : 0px;">
 
-![id찾기_인증번호](https://github.com/no2j/no2j.github.io/assets/106552182/da037354-b194-4109-98b1-67475b1dbc7c)
-<img src="https://github.com/no2j/no2j.github.io/assets/106552182/49e03053-dfa4-4464-ab43-33c0524ed542" width="500" height="200">
+![id찾기_인증번호](https://github.com/no2j/no2j.github.io/assets/106552182/da037354-b194-4109-98b1-67475b1dbc7c){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
+<img src="https://github.com/no2j/no2j.github.io/assets/106552182/49e03053-dfa4-4464-ab43-33c0524ed542" width="500" height="200" style="border:1px solid #606060; border-radius: 7px; padding : 0px;">
 
 - 학생 및 임직원의 이름과 등록된 휴대폰 번호를 입력받아 학교에 등록된 사용자인지 판별
 - 판별 후 해당 사용자의 휴대폰 번호 또는 이메일로 인증번호를 발송하여 진행
@@ -82,18 +82,18 @@ tags : [finalproject]
 
 #### 이메일인증을 이용한 비밀번호 초기화
 ---
-<img src="https://github.com/no2j/no2j.github.io/assets/106552182/43ee05b8-01b1-43c3-8716-81d8b6fa70e0" width="600">
-<img src="https://github.com/no2j/no2j.github.io/assets/106552182/a44a4af9-cd94-476a-a3ae-1457bda72b03" width="600">
+<img src="https://github.com/no2j/no2j.github.io/assets/106552182/43ee05b8-01b1-43c3-8716-81d8b6fa70e0" width="600" style="border:1px solid #606060; border-radius: 7px; padding : 0px;">
+<img src="https://github.com/no2j/no2j.github.io/assets/106552182/a44a4af9-cd94-476a-a3ae-1457bda72b03" width="600" style="border:1px solid #606060; border-radius: 7px; padding : 0px;">
 
 - ID 찾기와 달리 사용자의 아이디와 휴대폰 번호를 입력받은 후 인증을 진행
 - 총 5분의 인증 유효시간이 존재하며 시간 연장 버튼을 클릭 시 인증 유효시간을 다시 5분으로 설정
 <br><br>
 
-<img src="https://github.com/no2j/no2j.github.io/assets/106552182/01812c06-7718-4fb3-aaf4-e337cef3243c" width="700">
+<img src="https://github.com/no2j/no2j.github.io/assets/106552182/01812c06-7718-4fb3-aaf4-e337cef3243c" width="700" style="border:1px solid #606060; border-radius: 7px; padding : 0px;">
 - 사용자의 등록된 이메일주소로 인증 번호를 발송
 <br><br>
 
-<img src="https://github.com/no2j/no2j.github.io/assets/106552182/32f430eb-20a6-4144-be7d-dbe7d32df686" width="850">
+<img src="https://github.com/no2j/no2j.github.io/assets/106552182/32f430eb-20a6-4144-be7d-dbe7d32df686" width="850" style="border:1px solid #606060; border-radius: 7px; padding : 0px;">
 
 - 인증 완료 후 비밀번호를 재설정하는 사진 
 - onkeyup 키보드 이벤트를 사용하여 첫 입력영역과 두 번째 입력영역이 다를 경우 일치하지 않는다는 안내 문자가 나오게 되며 비밀번호 변경 버튼이 비활성화
@@ -101,7 +101,7 @@ tags : [finalproject]
 
 ### 날씨 및 미세먼지 정보
 ---
-![Weather](https://github.com/no2j/no2j.github.io/assets/106552182/016d57e8-b8cd-4443-ad4c-57962f72e135)
+![Weather](https://github.com/no2j/no2j.github.io/assets/106552182/016d57e8-b8cd-4443-ad4c-57962f72e135){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
 
 - 사용 API 정보
   - 공공데이터 기상청_단기예보(구 동네예보) API
@@ -120,13 +120,13 @@ tags : [finalproject]
 - 사용자에게 더 원활한 데이터 제공을 위해 메인 홈페이지에 날씨 및 미세먼지 API를 미리 호출하였으며 API 호출은 메인페이지와 종합정보시스템 메인페이지 총 두 곳에서 호출(총 두 번의 요청 발생 방지를 위해 Synchronized 사용)
 <br><br>
 
-![Weather2](https://github.com/no2j/no2j.github.io/assets/106552182/259eeb94-e651-4896-9487-a4fb1dc91e4c)
+![Weather2](https://github.com/no2j/no2j.github.io/assets/106552182/259eeb94-e651-4896-9487-a4fb1dc91e4c){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
 
 - 데이터 요청 오류 및 데이터 재요청 횟수 도달 시 GIF 형식의 이미지를 사용하여 사용자에게 다른 페이지로 이동 및 새로고침으로 데이터 재요청 유도
 
 ### 졸업사정표
 ---
-![졸업사정표](https://github.com/no2j/no2j.github.io/assets/106552182/bc6c78d0-6175-4e8b-9933-75f8dcc24be8)
+![졸업사정표](https://github.com/no2j/no2j.github.io/assets/106552182/bc6c78d0-6175-4e8b-9933-75f8dcc24be8){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
 
 - 페이지 설명
   1. 로그인 한 학생의 졸업 관련 정보
@@ -136,20 +136,20 @@ tags : [finalproject]
 <br><br>
 
 #### 최종 판정 결과 도출 과정
-![졸업사정표_최종판별](https://github.com/no2j/no2j.github.io/assets/106552182/8177534a-e7e9-4802-b116-049430dd8de1)
+![졸업사정표_최종판별](https://github.com/no2j/no2j.github.io/assets/106552182/8177534a-e7e9-4802-b116-049430dd8de1){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
 
 - 전체 이수 현황표의 판정 중 불합격이 하나라도 있다면 최종 판정 결과에 불합격이 들어가도록 설정하였음
 <br><br>
 
 #### 이수 현황 상세 조회
-![졸업사정표_상세조회](https://github.com/no2j/no2j.github.io/assets/106552182/7bf1e395-dd95-4098-9a6d-b1b6a70394e6)
+![졸업사정표_상세조회](https://github.com/no2j/no2j.github.io/assets/106552182/7bf1e395-dd95-4098-9a6d-b1b6a70394e6){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
 
 - 상세 조회 버튼 클릭 시 이수 및 이수하지 못한 과목들도 조회할 수 있으며 총계를 통해 이수학점을 확인할 수 있는 modal 창
 <br><br>
 
 ### 수강신청
 ---
-![수강신청](https://github.com/no2j/no2j.github.io/assets/106552182/e6cd823c-9ce1-4227-98b2-ba3adc74ac2e)
+![수강신청](https://github.com/no2j/no2j.github.io/assets/106552182/e6cd823c-9ce1-4227-98b2-ba3adc74ac2e){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
 
 - 페이지 설명
   1. 현재 연도와 학기의 정보를 알 수 있는 영역
@@ -175,7 +175,7 @@ tags : [finalproject]
 
 ### 수강취소
 ---
-![수강취소](https://github.com/no2j/no2j.github.io/assets/106552182/c4068688-3158-4ee8-bf51-316865e00e9b)
+![수강취소](https://github.com/no2j/no2j.github.io/assets/106552182/c4068688-3158-4ee8-bf51-316865e00e9b){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
 
  - 페이지 설명
    - 수강 신청 기간이 아닐 때 수강 신청 탭을 이용할 수 없으므로 해당 페이지에서 수강을 취소할 수 있음
@@ -184,7 +184,7 @@ tags : [finalproject]
 
 ### 수강 신청 내역조회
 ---
-![수강신청_내역조회](https://github.com/no2j/no2j.github.io/assets/106552182/dbc14110-e1ab-4cd2-8a5f-efd845aa6336)
+![수강신청_내역조회](https://github.com/no2j/no2j.github.io/assets/106552182/dbc14110-e1ab-4cd2-8a5f-efd845aa6336){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
 
 - 페이지 설명
   - 수강 신청 내역이 존재하는 연도들만 조회할 수 있도록 하였으며 연도와 학기를 설정하여 검색하는 방식과 이전, 다음 학기 버튼을 사용하여 검색하는 방식이 있다.
@@ -193,7 +193,7 @@ tags : [finalproject]
 
 ### 예비수강신청
 ---
-![예비수강신청](https://github.com/no2j/no2j.github.io/assets/106552182/d2831561-6b36-4587-8173-060e142eed4c)
+![예비수강신청](https://github.com/no2j/no2j.github.io/assets/106552182/d2831561-6b36-4587-8173-060e142eed4c){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
 
 - 페이지 설명
   - 해당 페이지는 수강 신청 전 미리 강의를 담아 놓을 수 있는 페이지이며 수강 신청 시 장바구니 카테고리를 사용하여 담아놓았던 강의를 조회할 수 있도록 하는 페이지입니다.
@@ -202,12 +202,12 @@ tags : [finalproject]
 
 ### 챗봇
 ---
-![챗봇](https://github.com/no2j/no2j.github.io/assets/106552182/a3855c72-d423-4b01-95b3-01e2ae7e91f4)
-![챗봇2](https://github.com/no2j/no2j.github.io/assets/106552182/1c827360-de8c-4659-b259-9310ea9de46e)
+![챗봇](https://github.com/no2j/no2j.github.io/assets/106552182/a3855c72-d423-4b01-95b3-01e2ae7e91f4){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
+![챗봇2](https://github.com/no2j/no2j.github.io/assets/106552182/1c827360-de8c-4659-b259-9310ea9de46e){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
 
 - 종이비행기를 클릭 시 챗봇을 시작할 수 있는 영역이 오픈되며 아래의 사진과 같이 사용자의 질문에 따라 질문내용과 유사하거나 같은 값을 가지고 있는 버튼들을 보여주며 버튼을 클릭하게 되면 버튼에 해당하는 페이지로 이동하게 되는 기능
 
-![챗봇_결과](https://github.com/no2j/no2j.github.io/assets/106552182/67e66494-6242-48bf-b270-f447269f87de)
+![챗봇_결과](https://github.com/no2j/no2j.github.io/assets/106552182/67e66494-6242-48bf-b270-f447269f87de){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
 
 1. 챗봇 시작하기를 클릭 시 나오게 되는 영역이며 큰 카테고리들을 예시로 보여줌
 2. 예로 "휴학은 어디서 해야 하나요?" 라고 질문하였을 경우
@@ -225,28 +225,28 @@ tags : [finalproject]
 
 ### 날씨 및 미세먼지 정보
 ---
-![1](https://github.com/no2j/no2j.github.io/assets/106552182/11646ca6-8f87-4030-92be-fa035f87c6e4)
-![2](https://github.com/no2j/no2j.github.io/assets/106552182/a0490d84-6231-4696-bc61-1408756f2705)
-![3](https://github.com/no2j/no2j.github.io/assets/106552182/7cd129c3-d643-4824-a010-4f4b9e412fdf)
-![4](https://github.com/no2j/no2j.github.io/assets/106552182/070672a2-fb31-4626-a1c0-3c39d05241a6)
-![5](https://github.com/no2j/no2j.github.io/assets/106552182/66b2c774-60df-447d-8b2c-7687823a923b)
-![6](https://github.com/no2j/no2j.github.io/assets/106552182/6a8584fd-bf15-445b-ac77-a114e77dc7e1)
+![1](https://github.com/no2j/no2j.github.io/assets/106552182/11646ca6-8f87-4030-92be-fa035f87c6e4){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
+![2](https://github.com/no2j/no2j.github.io/assets/106552182/a0490d84-6231-4696-bc61-1408756f2705){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
+![3](https://github.com/no2j/no2j.github.io/assets/106552182/7cd129c3-d643-4824-a010-4f4b9e412fdf){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
+![4](https://github.com/no2j/no2j.github.io/assets/106552182/070672a2-fb31-4626-a1c0-3c39d05241a6){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
+![5](https://github.com/no2j/no2j.github.io/assets/106552182/66b2c774-60df-447d-8b2c-7687823a923b){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
+![6](https://github.com/no2j/no2j.github.io/assets/106552182/6a8584fd-bf15-445b-ac77-a114e77dc7e1){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
 <br><br>
 
 ### 수강신청
 ---
 
 #### 수강신청 - 강의 목록 조회 (Controller)
-![수강신청_코드상세1](https://github.com/no2j/no2j.github.io/assets/106552182/6d53b556-ce62-4ebe-9795-463d1fce5042)
+![수강신청_코드상세1](https://github.com/no2j/no2j.github.io/assets/106552182/6d53b556-ce62-4ebe-9795-463d1fce5042){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
   - AJAX를 사용하여 값을 받아오기 위해 ResponseBody 어노테이션을 사용
   - RequestParam 어노테이션을 사용하여 departmentName의 기본값을 "교양"으로 설정
 
 #### 수강신청 - 강의 목록 조회 (Service)
-![수강신청_코드상세2](https://github.com/no2j/no2j.github.io/assets/106552182/518ed76a-5752-4080-a155-0ca6c0510af9)
+![수강신청_코드상세2](https://github.com/no2j/no2j.github.io/assets/106552182/518ed76a-5752-4080-a155-0ca6c0510af9){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
 #### 수강신청 - 강의 목록 조회 (Dao)
-![수강신청_코드상세3](https://github.com/no2j/no2j.github.io/assets/106552182/849dce9c-379c-426f-9a5a-6b3ba2024a37)
+![수강신청_코드상세3](https://github.com/no2j/no2j.github.io/assets/106552182/849dce9c-379c-426f-9a5a-6b3ba2024a37){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
 #### 수강신청 - 강의 목록 조회 (mapper)
-![수강신청_코드상세4](https://github.com/no2j/no2j.github.io/assets/106552182/20534192-3d7a-4458-9a76-9b7e0fbe0400)
+![수강신청_코드상세4](https://github.com/no2j/no2j.github.io/assets/106552182/20534192-3d7a-4458-9a76-9b7e0fbe0400){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
 - 값을 DB에서 정리하여 처리
   - "시간/학점"으로 값을 보내주기 위해 두 개의 값을 CONCAT으로 처리
   - DECODE를 사용하여 조건처리 후 설정한 값으로 변경하였으며 공백도 값 사이사이에 추가하여 요일, 강의 시간, 강의실을 합치도록 하였음
@@ -263,7 +263,7 @@ tags : [finalproject]
 <br><br>
 
 #### 수강신청 - 수강신청 버튼 클릭 시 (Controller)
-![수강신청_코드상세5](https://github.com/no2j/no2j.github.io/assets/106552182/e15b9906-18f3-4eec-95d5-c5bc08243106)
+![수강신청_코드상세5](https://github.com/no2j/no2j.github.io/assets/106552182/e15b9906-18f3-4eec-95d5-c5bc08243106){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
 - Synchronized 어노테이션을 사용하여 수강인원 초과 신청 방지
 - AJAX를 사용하여 값을 받아오기 위해 ResponseBody 어노테이션을 사용
 - 작동 순서
@@ -273,7 +273,7 @@ tags : [finalproject]
 <br><br>
 
 #### 수강신청 - 수강신청 버튼 클릭 시 (Service)
-![수강신청_코드상세6](https://github.com/no2j/no2j.github.io/assets/106552182/f0f374f5-eaad-487c-83ae-4c14018ceb0d)
+![수강신청_코드상세6](https://github.com/no2j/no2j.github.io/assets/106552182/f0f374f5-eaad-487c-83ae-4c14018ceb0d){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
 - Transactional 어노테이션을 사용하여 수강 신청 과정 중 하나라도 실패 시 rollback 시키도록 설정
 - 작동 순서
   1. 해당 강의 시작 시간의 데이터를 추가
@@ -282,8 +282,8 @@ tags : [finalproject]
 <br><br>
 
 #### 수강신청 - 수강신청 버튼 클릭 시 (Dao)
-![수강신청_코드상세7](https://github.com/no2j/no2j.github.io/assets/106552182/65010163-959a-4bbb-baf5-4a4b01d4e73c)
+![수강신청_코드상세7](https://github.com/no2j/no2j.github.io/assets/106552182/65010163-959a-4bbb-baf5-4a4b01d4e73c){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
 #### 수강신청 - 수강신청 버튼 클릭 시 (mapper)
-![수강신청_코드상세8](https://github.com/no2j/no2j.github.io/assets/106552182/b6902d57-d79a-4072-9c5a-39ed541bf596)
+![수강신청_코드상세8](https://github.com/no2j/no2j.github.io/assets/106552182/b6902d57-d79a-4072-9c5a-39ed541bf596){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
 - 수강 신청 - 수강 신청 (강의 시간 체크)의 동적쿼리에서 AND가 OR보다 우선순위가 높으므로 괄호를 사용하여 OR 연산자를 먼저 처리
 <br><br>
