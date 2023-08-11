@@ -56,7 +56,7 @@ tags : [finalproject]
 ## 기능구현
 ### 로그인 기능
 ---
-<img src="https://github.com/no2j/no2j.github.io/assets/106552182/c516202a-9504-4102-9365-57c2f7a23233" width="500" height="500" style="border:1px solid #606060; border-radius: 7px; padding : 0px;">
+<img src="https://github.com/no2j/no2j.github.io/assets/106552182/c516202a-9504-4102-9365-57c2f7a23233" width="500" height="500">
 1. 아이디 및 비밀번호 빈값 처리
 2. 아이디 저장 기능
 3. 로그인 상태 유지(자동 로그인) 기능
@@ -64,16 +64,16 @@ tags : [finalproject]
 
 #### SMS인증을 이용한 ID찾기
 ---
-<img src="https://github.com/no2j/no2j.github.io/assets/106552182/cfa5c1e9-9993-4342-b49c-650e3110811f"  width="500" height="350" style="border:1px solid #606060; border-radius: 7px; padding : 0px;">
+<img src="https://github.com/no2j/no2j.github.io/assets/106552182/cfa5c1e9-9993-4342-b49c-650e3110811f"  width="500" height="350">
 
 - ID 찾기 및 비밀번호 초기화 버튼을 클릭 시 나오게 되는 페이지
 - SMS 인증 또는 이메일 인증 중 선택하여 인증 진행
 <br><br>
 
-<img src="https://github.com/no2j/no2j.github.io/assets/106552182/e27317ea-be36-4a2d-9ed8-3a18756eb2d3" width="500" height="350" style="border:1px solid #606060; border-radius: 7px; padding : 0px;">
+<img src="https://github.com/no2j/no2j.github.io/assets/106552182/e27317ea-be36-4a2d-9ed8-3a18756eb2d3" width="500" height="350">
 
 ![id찾기_인증번호](https://github.com/no2j/no2j.github.io/assets/106552182/da037354-b194-4109-98b1-67475b1dbc7c){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
-<img src="https://github.com/no2j/no2j.github.io/assets/106552182/49e03053-dfa4-4464-ab43-33c0524ed542" width="500" height="200" style="border:1px solid #606060; border-radius: 7px; padding : 0px;">
+<img src="https://github.com/no2j/no2j.github.io/assets/106552182/49e03053-dfa4-4464-ab43-33c0524ed542" width="500" height="200">
 
 - 학생 및 임직원의 이름과 등록된 휴대폰 번호를 입력받아 학교에 등록된 사용자인지 판별
 - 판별 후 해당 사용자의 휴대폰 번호 또는 이메일로 인증번호를 발송하여 진행
@@ -82,18 +82,18 @@ tags : [finalproject]
 
 #### 이메일인증을 이용한 비밀번호 초기화
 ---
-<img src="https://github.com/no2j/no2j.github.io/assets/106552182/43ee05b8-01b1-43c3-8716-81d8b6fa70e0" width="600" style="border:1px solid #606060; border-radius: 7px; padding : 0px;">
-<img src="https://github.com/no2j/no2j.github.io/assets/106552182/a44a4af9-cd94-476a-a3ae-1457bda72b03" width="600" style="border:1px solid #606060; border-radius: 7px; padding : 0px;">
+<img src="https://github.com/no2j/no2j.github.io/assets/106552182/43ee05b8-01b1-43c3-8716-81d8b6fa70e0" width="600">
+<img src="https://github.com/no2j/no2j.github.io/assets/106552182/a44a4af9-cd94-476a-a3ae-1457bda72b03" width="600">
 
 - ID 찾기와 달리 사용자의 아이디와 휴대폰 번호를 입력받은 후 인증을 진행
 - 총 5분의 인증 유효시간이 존재하며 시간 연장 버튼을 클릭 시 인증 유효시간을 다시 5분으로 설정
 <br><br>
 
-<img src="https://github.com/no2j/no2j.github.io/assets/106552182/01812c06-7718-4fb3-aaf4-e337cef3243c" width="700" style="border:1px solid #606060; border-radius: 7px; padding : 0px;">
+<img src="https://github.com/no2j/no2j.github.io/assets/106552182/01812c06-7718-4fb3-aaf4-e337cef3243c" width="700">
 - 사용자의 등록된 이메일주소로 인증 번호를 발송
 <br><br>
 
-<img src="https://github.com/no2j/no2j.github.io/assets/106552182/32f430eb-20a6-4144-be7d-dbe7d32df686" width="850" style="border:1px solid #606060; border-radius: 7px; padding : 0px;">
+<img src="https://github.com/no2j/no2j.github.io/assets/106552182/32f430eb-20a6-4144-be7d-dbe7d32df686" width="850">
 
 - 인증 완료 후 비밀번호를 재설정하는 사진 
 - onkeyup 키보드 이벤트를 사용하여 첫 입력영역과 두 번째 입력영역이 다를 경우 일치하지 않는다는 안내 문자가 나오게 되며 비밀번호 변경 버튼이 비활성화
