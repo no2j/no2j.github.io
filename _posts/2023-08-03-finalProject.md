@@ -1,7 +1,7 @@
 ---
 title : 파이널프로젝트
 date : 2023-08-07 15:24:37 +09:00
-categories : [project,finalproject]
+categories : [Project,FinalProject]
 tags : [finalproject]
 ---
 

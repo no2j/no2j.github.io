@@ -1,7 +1,7 @@
 ---
 title : 세미프로젝트
 date : 2023-08-02 10:45:17 +09:00
-categories : [project,semiproject]
+categories : [Project,SemiProject]
 tags : [semiproject]
 ---
 
