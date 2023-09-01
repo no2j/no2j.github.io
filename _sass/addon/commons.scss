@@ -55,7 +55,7 @@ body {
         $factor: 0.23rem;
       }
 
-      font-size: 1rem + (5 - $i) * $factor;
+      font-size: 1rem + (6 - $i) * $factor;
     } @else {
       font-size: 1rem;
     }
@@ -1491,7 +1491,7 @@ $btn-mb: 0.5rem;
   }
 
   .post-content {
-    font-size: 1.03rem;
+    font-size: 1.09rem;
   }
 
   footer {
