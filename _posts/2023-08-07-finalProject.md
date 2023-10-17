@@ -9,8 +9,8 @@ tags : [finalproject]
 <hr>
 
 ### 개발목표
-- CMS와 관련된 웹페이지 구축
-- 대학교 홈페이지 이용 시 불편했던 점들을 보완
+- 기존의 대학교 홈페이지를 사용했던 경험을 바탕으로 너무 많은 정보로 인해 찾고자 하는 정보를 찾기가 어려웠던 경험이 있었습니다.
+불편했던 경험을 보완하여 사용자 중심의 홈페이지와 필요로 하는 정보를 쉽게 얻을 수 있도록 하기 위해서 직관적인 카테고리와 정보에 대한 우선순위를 정하여 중요한 정보를 더 눈에 띄게 배치하는 것을 중점으로 개발하였습니다.
 
 ### 사용기술 및 개발환경
 - 운영체제 : Window OS
@@ -32,18 +32,33 @@ tags : [finalproject]
 - [ ] 종합정보시스템 (교직원 전용) : 급여 관리, 학사관리, 상담관리, 강의 관리, 수업 관리
 - [ ] 종합정보시스템 (임직원 전용) : 금전 관리, 학사관리, 강의 관리
 
-### 담당 역할
-- 로그인 관련 기능구현 : 아이디 저장, 자동로그인(cookie, session), 회원식별 후 페이지 이동, 비밀번호 암호화 판별(BCryptPasswordEncoder)
+### 상세 구현 기능
+- 로그인 관련 기능구현
+  - 아이디 저장 - (Cookie 사용)
+  - 자동로그인 - (Cookie 사용)
+  - 비밀번호 암호화 판별 - (BCryptPasswordEncoder)
+- 아이디 찾기 및 비밀번호 초기화
+  - E-mail방식 - (Javax.mail.API)
+  - SMS방식 - (Naver SENS API)
 - 졸업 사정표 구현
 - 수강 신청 관련 기능 구현
+  - Synchronized 사용 : 수강인원 초과를 방지하기 위해서 사용
+  - Transactional 사용 : 수강 신청 과정 중 에러 발생 시 복구를 위해서 사용
 - 챗봇 기능 구현
+  - 2중 for 문 사용 : 사용자 입력 값 경우의 수 처리를 위해 사용
+  - HashSet 사용 : 중복 값을 처리하기 위해 사용
 - 날씨 및 미세먼지 정보 기능 구현 : 공공데이터 API
+  - Cache 사용 : 트래픽을 최소화하며 동일한 데이터를 받아볼 수 있도록 하기 위해 사용
+  - Scheduled 사용 : 정해진 시간마다 데이터의 재갱신을 위해서 사용
+  - Synchronized 사용 : 두 곳에서 호출하기 때문에 반복 요청 방지를 위해서 사용
 - 페이지 interceptor 처리
+  - 권한 관리와 보안 강화를 위해서 사용
   
 ### ERD 설계
 ![전체ERD](https://github.com/no2j/no2j.github.io/assets/106552182/85c864ae-0db6-42ed-86fb-f35b712313ad){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
 
-#### ERD 설계 (세부적)
+<hr>
+
 ![123](https://github.com/no2j/no2j.github.io/assets/106552182/9431ddaa-7ad6-4b9b-b69d-6975be7f4e3d){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
 
 #### ERD 설명

@@ -9,9 +9,7 @@ tags : [semiproject]
 <hr>
 
 ### 개발 목표
-- 사용자들의 편리한 이용을 위한 도서 쇼핑몰 사이트 구축
-- 화면구현부터 백엔드까지 전반적인 구현 경험
-- 게시판 CRUD 구현 및 AJAX 비동기 방식으로 데이터 갱신
+- 편리한 사용자 경험을 위한 도서 쇼핑몰 사이트를 구축해 보고 싶어서 쇼핑몰을 주제로 선택하였습니다. 게시판의 CRUD 기능 구현 및 Ajax를 활용하여 비동기 방식으로 데이터의 갱신을 중점으로 하여 화면 구현부터 Back-End까지 전반적인 웹 페이지를 구현하고자 하였습니다.
 
 ### 사용기술 및 개발 환경
 - 운영체제 : Window OS
@@ -66,7 +64,7 @@ tags : [semiproject]
 1. 검색 카테고리
    - 카테고리를 선택하여 세부적으로 검색할 수 있는 기능
 2. 검색 빈값 처리
-   - onsubmit을 사용하여 빈값 처리를 front 단에서 처리
+   - onsubmit을 사용하여 검색결과의 빈값 처리를 front 단에서 처리
 <br><br>
 
 ![member_detail](https://github.com/no2j/no2j.github.io/assets/106552182/2aed8643-dc03-4604-8990-8dd70c273183){:style="border:1px solid #606060; border-radius: 7px; padding: 0px;"}
